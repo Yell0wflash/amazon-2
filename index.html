@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Amazon 2.0</title>
+
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+
+    <body>
+        <div class="bg-white w-full">
+            <div class="header h-16 bg-gray-900 flex items-center">
+                <div class="logo w-1/6 h-16 ml-8 cursor-pointer">
+                    <img class="w-28 h-16 object-contain" src="./img/amazon-logo.png" alt="">
+                </div>
+                <input
+                    class="h-8 w-30 bg-gray-800 border border-gray-500 border-opacity-75 rounded-l-xl px-3 text-white focus:outline-none"
+                    id="search" type="text" placeholder="Search...">
+                <div
+                    class="categories h-8 w-35 bg-gray-800 border border-gray-500 border-opacity-75 px-3 text-white focus:outline-none flex items-center">
+                    Categories
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-3" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 9l-7 7-7-7" />
+                    </svg>
+                </div>
+                <div
+                    class="search-icon h-8 w-9 bg-pink-300 bg-gray-800 border border-gray-500 border-opacity-75 text-gray-800 rounded-r-xl px-1 focus:outline-none flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </div>
+                <!-- RIGHT SIDE ICONS -->
+                <div
+                    class="icons text-white flex items-center justify-around ml-auto mr-8 w-48 h-16">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    </svg>
+                    <div
+                        class="cart-icon h-10 w-10 bg-pink-300 flex items-center justify-center rounded-xl text-gray-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                    </svg>
+                    <svg class="h-10 w-10" data-jdenticon-value="anniedotexe ">
+                        A.W.
+                    </svg>
+                </div>
+
+            </div>
+
+            <div class="main h-screen flex">
+                <div class="left-sidebar w-1/6 bg-gray-900 border-t-2 border-gray-700 p-6">
+                    <div class="sidebar-categories">
+                        <div
+                            class="sidebar-main-category bg-gray-700 text-pink-300 cursor-pointer rounded-xl flex items-center font-bold p-2 mb-4">
+                            <span class="w-8">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                                </svg>
+                            </span>
+                            <span>Categories</span>
+                        </div>
+                        <div
+                            class="sidebar-main-category text-white hover:text-pink-300 cursor-pointer p-2 ml-8">
+                            <span class="w-8">Echo & Alexa</span>
+                        </div>
+                        <div
+                            class="sidebar-main-category text-white hover:text-pink-300 cursor-pointer p-2 ml-8">
+                            <span class="w-8">Kindle</span>
+                        </div>
+                        <div
+                            class="sidebar-main-category text-white hover:text-pink-300 cursor-pointer p-2 ml-8">
+                            <span class="w-8">Books</span>
+                        </div>
+                        <div
+                            class="sidebar-main-category text-white hover:text-pink-300 cursor-pointer p-2 ml-8">
+                            <span class="w-8">Electronics</span>
+                        </div>
+                        <div
+                            class="sidebar-main-category text-white hover:text-pink-300 cursor-pointer p-2 ml-8">
+                            <span class="w-8">Home & Garden</span>
+                        </div>
+                        <div
+                            class="sidebar-main-category text-white hover:text-pink-300 cursor-pointer p-2 ml-8">
+                            <span class="w-8">Fashion</span>
+                        </div>
+                        <div
+                            class="sidebar-main-category text-white cursor-pointer rounded-xl flex items-center font-bold my-4 p-2 hover:bg-gray-700">
+                            <span class="w-8">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                </svg>
+                            </span>
+                            <span>Sell on Amazon</span>
+                        </div>
+                        <div
+                            class="sidebar-main-category text-white cursor-pointer rounded-xl flex items-center font-bold p-2 hover:bg-gray-700">
+                            <span class="w-8">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </span>
+                            <span>Help</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-section bg-pink-100 flex-1 p-6">
+                    <div class="main-section-banner h-48 rounded-lg flex items-end">
+                        <div
+                            class="button bg-white w-40 h-10 rounded-full flex justify-center items-center m-4 cursor-pointer">
+                            <h4 class="font-bold text-purple-800 hover:text-red-600">Browse Products
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="main-section-categories mt-8">
+                        <h1
+                            class="popular-categories font-bold text-gray-800 text-2xl flex items-center">
+                            Popular
+                            Categories
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="h-7 w-7 ml-2 text-yellow-500" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                        </h1>
+                        <div class="categories my-5 flex gap-4">
+                            <div
+                                class="icon-desktop h-20 w-20 bg-white rounded-xl flex justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="h-10 w-10 text-gray-500 cursor-pointer" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="icon-gift h-20 w-20 bg-white rounded-xl flex justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="h-10 w-10 text-gray-500 cursor-pointer" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+                                </svg>
+                            </div>
+                            <div
+                                class="icon-phone h-20 w-20 bg-white rounded-xl flex justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="h-10 w-10 text-gray-500 cursor-pointer" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="icon-book h-20 w-20 bg-white rounded-xl flex justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="h-10 w-10 text-gray-500 cursor-pointer" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                                </svg>
+                            </div>
+                            <div
+                                class="icon-camera h-20 w-20 bg-white rounded-xl flex justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="h-10 w-10 text-gray-500 cursor-pointer" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                            </div>
+                            <div
+                                class="icon-house h-20 w-20 bg-white rounded-xl flex justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="h-10 w-10 text-gray-500 cursor-pointer" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                                </svg>
+                            </div>
+                            <div
+                                class="icon-music h-20 w-20 bg-white rounded-xl flex justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="h-10 w-10 text-gray-500 cursor-pointer" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                                </svg>
+                            </div>
+                            <div
+                                class="icon-lightbulb h-20 w-20 bg-white rounded-xl flex justify-center items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="h-10 w-10 text-gray-500 cursor-pointer" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-section-deals mt-8">
+                        <h1
+                            class="popular-categories font-bold text-gray-800 text-2xl flex items-center">
+                            Hot Deals
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="h-7 w-7 ml-2 text-red-600" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </h1>
+                        <div class="deals flex gap-5">
+                            <div class="main-product my-5">
+                                <div class="product-image w-48 h-52 p-4 bg-white rounded-xl">
+                                    <img class="w-full h-full object-contain cursor-pointer"
+                                        src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401728_sd.jpg;maxHeight=640;maxWidth=550"
+                                        alt="">
+                                </div>
+                                <div
+                                    class="product-name text-gray-700 font-bold mt-2 text-sm w-44 flex-wrap">
+                                    Nintendo Switch - Animal Crossing: New Horizons Edition
+                                </div>
+                                <div
+                                    class="product-make cursor-pointer hover:text-red-600 text-purple-800 font-bold text-sm w-44 flex-wrap">
+                                    Nintendo
+                                </div>
+                                <div class="product-rating text-gray-700 font-bold my-1">
+                                    ⭐⭐⭐⭐⭐ 4.9
+                                </div>
+                                <div class="product-price text-gray-700 font-bold text-lg">
+                                    $299.99
+                                </div>
+                            </div>
+                            <div class="main-product my-5">
+                                <div class="product-image w-48 h-52 p-4 bg-white rounded-xl">
+                                    <img class="w-full h-full object-contain cursor-pointer"
+                                        src="https://m.media-amazon.com/images/I/811YHMm7IyL._AC_SL1500_.jpg"
+                                        alt="">
+                                </div>
+                                <div
+                                    class="product-name text-gray-700 font-bold mt-2 text-sm w-44 flex-wrap">
+                                    OLYMPUS OM-D E-M10 Mark IV with M.Zuiko ED 14-42mm F3.5-5.6 EZ
+                                    Lens
+                                </div>
+                                <div
+                                    class="product-make cursor-pointer hover:text-red-600 text-purple-800 font-bold text-sm w-44 flex-wrap">
+                                    OLYMPUS
+                                </div>
+                                <div class="product-rating text-gray-700 font-bold my-1">
+                                    ⭐⭐⭐⭐⭐ 4.6
+                                </div>
+                                <div class="product-price text-gray-700 font-bold text-lg">
+                                    $799.00
+                                </div>
+                            </div>
+                            <div class="main-product my-5">
+                                <div class="product-image w-48 h-52 p-4 bg-white rounded-xl">
+                                    <img class="w-full h-full object-contain cursor-pointer"
+                                        src="https://m.media-amazon.com/images/I/51Tahu98IiL._AC_SL1001_.jpg"
+                                        alt="">
+                                </div>
+                                <div
+                                    class="product-name text-gray-700 font-bold mt-2 text-sm w-44 flex-wrap">
+                                    19.6" Stuffed Animal Shiba Inu Plush Toy Kawaii Plush Dog Soft
+                                    Pillow
+                                </div>
+                                <div
+                                    class="product-make cursor-pointer hover:text-red-600 text-purple-800 font-bold text-sm w-44 flex-wrap">
+                                    Auspicious Beginning
+                                </div>
+                                <div class="product-rating text-gray-700 font-bold my-1">
+                                    ⭐⭐⭐⭐⭐ 4.8
+                                </div>
+                                <div class="product-price text-gray-700 font-bold text-lg">
+                                    $25.99
+                                </div>
+                            </div>
+                            <div class="main-product my-5">
+                                <div class="product-image w-48 h-52 p-4 bg-white rounded-xl">
+                                    <img class="w-full h-full object-contain cursor-pointer"
+                                        src="https://m.media-amazon.com/images/I/81-fNmQqlLL._AC_SL1500_.jpg"
+                                        alt="">
+                                </div>
+                                <div
+                                    class="product-name text-gray-700 font-bold mt-2 text-sm w-44 flex-wrap">
+                                    Google Pixel 5 - Unlocked 5G Android Phone - 128GB - Just Black
+                                </div>
+                                <div
+                                    class="product-make cursor-pointer hover:text-red-600 text-purple-800 font-bold text-sm w-44 flex-wrap">
+                                    Google
+                                </div>
+                                <div class="product-rating text-gray-700 font-bold my-1">
+                                    ⭐⭐⭐⭐⭐ 4.6
+                                </div>
+                                <div class="product-price text-gray-700 font-bold text-lg">
+                                    $699.99
+                                </div>
+                            </div>
+                            <div class="main-product my-5">
+                                <div class="product-image w-48 h-52 p-4 bg-white rounded-xl">
+                                    <img class="w-full h-full object-contain cursor-pointer"
+                                        src="https://m.media-amazon.com/images/I/71fz5lmqjtS._AC_SL1500_.jpg"
+                                        alt="">
+                                </div>
+                                <div
+                                    class="product-name text-gray-700 font-bold mt-2 text-sm w-44 flex-wrap">
+                                    Dog DNA Test | Breed Identification & Canine Genetic
+                                    Health Screening
+                                </div>
+                                <div
+                                    class="product-make cursor-pointer hover:text-red-600 text-purple-800 font-bold text-sm w-44 flex-wrap">
+                                    Embark
+                                </div>
+                                <div class="product-rating text-gray-700 font-bold my-1">
+                                    ⭐⭐⭐⭐⭐ 4.9
+                                </div>
+                                <div class="product-price text-gray-700 font-bold text-lg">
+                                    $149.99
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/jdenticon@3.1.0/dist/jdenticon.min.js" async
+                integrity="sha384-VngWWnG9GS4jDgsGEUNaoRQtfBGiIKZTiXwm9KpgAeaRn6Y/1tAFiyXqSzqC8Ga/"
+                crossorigin="anonymous">
+                </script>
+        </div>
+    </body>
+
+</html>
