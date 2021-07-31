@@ -4,7 +4,9 @@ This is a redesigned Amazon clone built with HTML, Tailwind CSS, and JavaScript.
 
 _Inspired by this concept design on [Dribbble](https://dribbble.com/shots/15350650-Amazon-Website-Redesign-Concept)._
 
-**LIVE DEMO** - [amazon.anniew.xyz](https://amazon2.anniew.xyz/) OR [annie-amazon2.netlify.app](https://annie-amazon2.netlify.app/)
+It is currently not responsive. Please view it on desktop.
+
+**LIVE DEMO** - [amazon2.anniew.xyz](https://amazon2.anniew.xyz/) OR [annie-amazon2.netlify.app](https://annie-amazon2.netlify.app/)
 
 <p align="center">
     <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E44D26?style=flat&logo=html5&logoColor=white"/>
@@ -17,6 +19,10 @@ _Inspired by this concept design on [Dribbble](https://dribbble.com/shots/153506
     <img alt="Screenshot" src="./img/readme/screenshot.png" width="700px">
 </p>
 
+## Features
+
+- Click the logo and shopping icon to switch between the home page and cart page.
+
 ## Built With
 
 - [HTML5](https://www.w3schools.com/html/)
@@ -24,7 +30,8 @@ _Inspired by this concept design on [Dribbble](https://dribbble.com/shots/153506
 - [Tailwind CSS](https://tailwindcss.com/)
 - [JavaScript](https://www.w3schools.com/js/DEFAULT.asp)
 - [Heroicons](https://heroicons.com/) for the icons
-- Hosted on [Firebase](https://firebase.google.com/docs/hosting/quickstart)
+- [Firestore Database](https://firebase.google.com/docs/firestore)
+<!-- - Hosted on [Firebase](https://firebase.google.com/docs/hosting/quickstart) -->
 
 ---
 
@@ -60,6 +67,6 @@ If you like my content or find this code useful, give it a :star: or support me 
 ## Acknowledgments
 
 - [CleverProgrammer](https://www.cleverprogrammer.com/) for their Building Amazon 2.0 tutorial
-  - [Part 1](https://www.youtube.com/watch?v=HkTXe-O1ArM)
+  - [Part 1 - Home Page](https://www.youtube.com/watch?v=HkTXe-O1ArM)
   - [Part 2 - Cart Page](https://www.youtube.com/watch?v=lfxzyE5Gs84)
-  - [Part 3]()
+  - [Part 3 - ]()
