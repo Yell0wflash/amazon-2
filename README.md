@@ -4,7 +4,7 @@ This is a redesigned Amazon clone built with HTML, Tailwind CSS, and JavaScript.
 
 _Inspired by this concept design on [Dribbble](https://dribbble.com/shots/15350650-Amazon-Website-Redesign-Concept)._
 
-**LIVE DEMO** - [amazonclone2.anniew.xyz](https://amazon2.anniew.xyz/) OR [amazon2.netlify.app](https://amazon2.netlify.app/)
+**LIVE DEMO** - [amazon.anniew.xyz](https://amazon2.anniew.xyz/) OR [annie-amazon2.netlify.app](https://annie-amazon2.netlify.app/)
 
 <p align="center">
     <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E44D26?style=flat&logo=html5&logoColor=white"/>
