@@ -1,2 +1,5 @@
-// don't upload the file with secret informatin
+// don't upload the file with secret information
 firebase.js
+.firebase
+.firebaserc
+firebase.json

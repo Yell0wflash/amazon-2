@@ -1,12 +1,14 @@
-# [Amazon 2.0](https://amazon2.anniew.xyz/)
+# [Amazon 2.0](https://clone-2-2ee81.firebaseapp.com/)
 
-This is a redesigned Amazon clone built with HTML, Tailwind CSS, and JavaScript.
+This is a redesigned Amazon clone built with HTML, Tailwind CSS, and JavaScript. It uses the Firestore Database and is hosted on Firebase.
 
 _Inspired by this concept design on [Dribbble](https://dribbble.com/shots/15350650-Amazon-Website-Redesign-Concept)._
 
 It is currently not responsive. Please view it on desktop.
 
-**LIVE DEMO** - [amazon2.anniew.xyz](https://amazon2.anniew.xyz/) OR [annie-amazon2.netlify.app](https://annie-amazon2.netlify.app/)
+If the items are not showing on Chrome, try a different browser.
+
+**LIVE DEMO** - [clone-2-2ee81.firebaseapp.com](https://clone-2-2ee81.firebaseapp.com/)
 
 <p align="center">
     <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E44D26?style=flat&logo=html5&logoColor=white"/>
@@ -18,12 +20,15 @@ It is currently not responsive. Please view it on desktop.
 </p>
 
 <p align="center">
-    <img alt="Screenshot" src="./img/readme/screenshot.png" width="700px">
+    <img alt="Screenshot" src="./public/img/readme/screenshot.png" width="700px">
 </p>
 
 ## Features
 
-- Click the logo and shopping icon to switch between the home page and cart page.
+- Click the logo and shopping icon to switch between the home page and cart
+- Add items to cart
+- Increase / Decrease quantity of items in cart
+- Delete item from cart
 
 ## Built With
 
@@ -33,7 +38,7 @@ It is currently not responsive. Please view it on desktop.
 - [JavaScript](https://www.w3schools.com/js/DEFAULT.asp)
 - [Heroicons](https://heroicons.com/) for the icons
 - [Firestore Database](https://firebase.google.com/docs/firestore)
-<!-- - Hosted on [Firebase](https://firebase.google.com/docs/hosting/quickstart) -->
+- Hosted on [Firebase](https://firebase.google.com/docs/hosting/quickstart)
 
 ---
 
