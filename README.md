@@ -12,7 +12,9 @@ It is currently not responsive. Please view it on desktop.
     <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E44D26?style=flat&logo=html5&logoColor=white"/>
     <img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind%20CSS-2965f1?style=flat&logo=tailwindcss&logoColor=white"/>
     <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F0DB4F?style=flat&logo=javascript&logoColor=white"/>
+    <img alt="Firebase" src="https://img.shields.io/badge/-Firebase-grey?style=flat&logo=firebase&logoColor=FFA000"/>
     <img alt="Open Source? Yes!" src="https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github"/>
+
 </p>
 
 <p align="center">
@@ -69,4 +71,4 @@ If you like my content or find this code useful, give it a :star: or support me 
 - [CleverProgrammer](https://www.cleverprogrammer.com/) for their Building Amazon 2.0 tutorial
   - [Part 1 - Home Page](https://www.youtube.com/watch?v=HkTXe-O1ArM)
   - [Part 2 - Cart Page](https://www.youtube.com/watch?v=lfxzyE5Gs84)
-  - [Part 3 - ]()
+  - [Part 3 - Firebase and Firestore Database](https://www.youtube.com/watch?v=FkqZfGEav9c)
