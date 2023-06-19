@@ -60,26 +60,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ---
 
-## Creator / Maintainer
-
-Annie Wu ([anniedotexe](https://github.com/anniedotexe))
-
-If you have any questions, comments, or concerns, feel free to contact me below.
-
-<p align="left">
-  <a href="mailto:anniewu2303@gmail.com"> 
-    <img alt="Connect via Email" src="https://img.shields.io/badge/Gmail-c14438?style=flat&logo=Gmail&logoColor=white" />
-  </a>
-</p>
-
-This project was created for educational purposes and for personal and open-source use.
-
-If you like my content or find this code useful, give it a :star: or support me by buying me a coffee :coffee::heart:
-
-<a href="https://www.buymeacoffee.com/awu2303" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
----
-
 ## Acknowledgments
 
 - [CleverProgrammer](https://www.cleverprogrammer.com/) for their Building Amazon 2.0 tutorial
